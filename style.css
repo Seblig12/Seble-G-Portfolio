@@ -1,0 +1,129 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(199, 160, 113);
+    background-color: #141E30;
+
+}
+
+body {
+    
+    background: #141E30;
+    margin: 0;
+    padding: 0;
+  }
+
+    
+
+  .navbar-toggler-icon{
+    width: 47px;
+    height: 34px;
+    background-color: rgb(199, 160, 113);
+    border-color: rgb(199, 160, 113);
+
+    
+  }
+   
+  .navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: rgb(199, 160, 113);
+    margin-bottom: 5px;
+    
+  }
+  #navbar-container{
+    background-color: #141E30;  
+}
+
+  
+
+
+  .navbar-brand{
+    color: rgb(199, 160, 113);
+  }
+
+  .navbar-nav >li a {
+    color:rgb(199, 160, 113);
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right: 30px;
+    margin-left: 30PX;
+
+}
+ 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: rgb(199, 160, 113);
+}
+
+  
+P {
+    color:rgb(199, 160, 113);
+
+}
+
+h2 {
+    color: rgb(199, 160, 113);
+}
+
+#headjumbo img {
+    height: 200;
+    width: 30%;
+
+}
+
+#headjumbo {
+    color: rgb(199, 160, 113);
+}
+
+#headjumbo h2 {
+font-size: 3rem;
+font-family:sans-serif;
+margin: 40px;
+padding-top: 10%;
+}
+
+#headjumbo h2 {
+    font-size: 2rem;
+}
+.jumborton {
+    background-color: khaki;
+}
+
+
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+
+}
+
+.tab-links{
+    margin: 80px; 
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links.active-link::after{
+width: 10px;
+}
+.tab-contents ul li{
+    list-style:'';
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right: 30px;
+    margin-left: 30PX;
+    font-size: 900px;
+    line-height: 9px;
+}
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display:blocks;
+}
